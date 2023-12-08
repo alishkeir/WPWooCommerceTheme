@@ -20,19 +20,27 @@
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
 </head>
 
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
 	<div id="page" class="site">
 		<header>
-			<section class="search">Search</section>
-			<section class="top-bar">
-				<div class="brand">Logo</div>
-				<div class="second-column">
-					<div class="account">Account</div>
-					<nav class="main-menu">Menu</nav>
+			<section class="search">
+				<div class="container">
+					Search
 				</div>
+			</section>
+			<section class="top-bar">
+				<div class="container">
+					<div class="row">
+						<div class="brand col-3 col-sm-6">Logo</div>
+						<div class="second-column col-9 col-sm-6">
+							<div class="account">Account</div>
+							<nav class="main-menu">Menu</nav>
+						</div>
+					</div>
+				</div>
+
 			</section>
 		</header>
