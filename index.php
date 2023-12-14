@@ -21,7 +21,7 @@ get_header(); ?>
         <section class="popular-products">Popular Products</section>
         <section class="new-arrivals">New Arrivals</section>
         <section class="deal-of-the-week">Deal of the Week</section>
-        <section class="lab-blog">News</section>
+        <section class="lab-blog"></section>
     </main>
 </div>
 <?php get_footer(); ?>
